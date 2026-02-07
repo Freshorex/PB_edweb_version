@@ -1,4 +1,4 @@
 document.getElementById("menu").onclick = function() {
-  document.getElementById("intmenu").style.display = "block";
+document.getElementById("intmenu").style.display = "block";
 };
 
