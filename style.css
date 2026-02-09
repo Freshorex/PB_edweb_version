@@ -23,3 +23,9 @@ header {
     margin-top: 50px;
     padding: 10px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
