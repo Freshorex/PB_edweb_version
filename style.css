@@ -1,3 +1,9 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0fr repeat(5, 1fr);
+}
+
 header {
     display: flex;
     flex-direction: row;
@@ -19,7 +25,7 @@ header {
     display: none;
     position: absolute;
     background-color: antiquewhite;
-    width: 90vw;
+    width: 89.5%;
     margin-top: 50px;
     padding: 10px;
 }
@@ -29,3 +35,74 @@ a {
     color: black;
 }
 
+#s1 {
+    height: 70vh;
+    align-content: center;
+    text-align: center;
+    background-color: beige;
+    margin-top: 5px;
+}
+
+#s2 {
+    height: 50vh;
+    background-color: beige;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 10%;
+}
+
+
+#s3 {
+    height: 50vh;
+    background-color: beige;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 10%;
+}
+
+.picplaceholder {
+    width: 100%;
+    height: 60%;
+    background-color: burlywood;
+}
+
+button {
+    background-color: burlywood;
+    margin-top: 10vh;
+    height: 7vh;
+    width: 89%;
+}
+
+#s4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    background-color: beige;
+    margin-top: 5px;
+    gap: 15px;
+    padding: 15px;
+    height: 25vh;
+}
+
+#gridpph {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: 100%;
+}
+
+#btnpph {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#s5 {
+
+}
+
+#s6 {
+
+}
