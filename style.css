@@ -141,7 +141,7 @@ button {
     gap: 15px;
 }
 
-hgroup {
+#ch-select {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
@@ -186,6 +186,39 @@ hgroup {
 #ch_img {
     width: 70vw;
     height: 35vh;
+}
+
+#ep-box {
+    display: none;
+    margin: 0;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+#page_holder {
+    background-color: burlywood;
+    margin-top: 5px;
+}
+
+#warnings {
+    height: 196vh;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+
+.pages {
+    background-color: burlywood;
+    height: 95vh;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.titles {
+    text-align: center;
+}
+
+#controller {
+    height: 10vh;
 }
 
 footer {
