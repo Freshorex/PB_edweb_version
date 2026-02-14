@@ -1,13 +1,7 @@
-body {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr
-}
-
 header {
     display: flex;
     flex-direction: row;
-    background-color: burlywood;
+    background-color: aqua;
     padding: 5px;
 }
 
