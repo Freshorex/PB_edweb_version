@@ -1,7 +1,7 @@
 header {
     display: flex;
     flex-direction: row;
-    background-color: aqua;
+    background-color: burlywood;
     padding: 5px;
 }
 
@@ -19,7 +19,7 @@ header {
     display: none;
     position: absolute;
     background-color: antiquewhite;
-    width: 90vw;
+    width: 91.9vw;
     margin-top: 65px;
     padding: 10px;
     text-align: right;
@@ -213,6 +213,80 @@ button {
 
 #controller {
     height: 10vh;
+}
+
+#intdemo {
+    text-align: center;
+    align-content: center;
+    height: 50vh;
+    background-color: blanchedalmond;
+    margin-top: 5px;
+}
+
+#controls {
+    background-color: darksalmon;
+    margin-top: 5px;
+    height: 20vh;
+    padding: 50px;
+}
+
+#newz {
+    margin-top: 5px;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.newzbox {
+    width: 90%;
+    height: 44vh;
+    background-color:rgb(161, 51, 0);
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+
+.newzbox p {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.imgnewz {
+    background-color: bisque;
+    height: 20vh;
+    width: 100%;
+}
+
+.modalbtn {
+    width: 70%;
+}
+
+#contact {
+    margin-top: 5px;
+    background-color: burlywood;
+    height: 50vh;
+    text-align: center;
+}
+
+#formbox {
+    padding: 10px;
+}
+
+#send {
+    width: 90%;
+    height: 5vh;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.rssicon {
+    width: 10vw;
+    height: 5vh;
+    background-color: blanchedalmond;
 }
 
 footer {
