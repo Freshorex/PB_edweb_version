@@ -19,7 +19,7 @@ header {
     display: none;
     position: absolute;
     background-color: antiquewhite;
-    width: 91.9vw;
+    width: 90%;
     margin-top: 65px;
     padding: 10px;
     text-align: right;
@@ -36,6 +36,17 @@ a {
     text-align: center;
     background-color: beige;
     margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#slprev, #slnext {
+    transform: rotate(90deg);
+}
+
+#slprev img, #slnext img {
+    width: 10%;
 }
 
 #s2 {
@@ -209,10 +220,39 @@ button {
 
 .titles {
     text-align: center;
+    align-content: center;
 }
 
 #controller {
-    height: 10vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#prev {
+    width: 10vw;
+    height: 5vh;
+    background-image: url(IMG/arrow_left.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#HOME {
+    width: 10vw;
+    height: 5vh;
+    background-image: url(IMG/home.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#next {
+    width: 10vw;
+    height: 5vh;
+    background-image: url(IMG/arrow_right.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #intdemo {
@@ -238,7 +278,6 @@ button {
 
 .newzbox {
     width: 90%;
-    height: 44vh;
     background-color:rgb(161, 51, 0);
     margin: auto;
     text-align: center;
@@ -263,7 +302,6 @@ button {
 #contact {
     margin-top: 5px;
     background-color: burlywood;
-    height: 50vh;
     text-align: center;
 }
 
