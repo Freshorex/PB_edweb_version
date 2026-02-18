@@ -20,9 +20,10 @@ header {
     position: absolute;
     background-color: antiquewhite;
     width: 90%;
-    margin-top: 65px;
+    margin-top: 52px;
     padding: 10px;
     text-align: right;
+    z-index: 2;
 }
 
 a {
