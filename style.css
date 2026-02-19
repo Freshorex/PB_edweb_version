@@ -42,11 +42,13 @@ a {
     justify-content: space-between;
 }
 
-#slprev, #slnext {
+#slprev,
+#slnext {
     transform: rotate(90deg);
 }
 
-#slprev img, #slnext img {
+#slprev img,
+#slnext img {
     width: 10%;
 }
 
@@ -143,7 +145,7 @@ button {
     background-color: beige;
     margin-top: 5px;
     padding: 15px;
-    height:25vh;
+    height: 25vh;
     gap: 15px;
 }
 
@@ -279,7 +281,7 @@ button {
 
 .newzbox {
     width: 90%;
-    background-color:rgb(161, 51, 0);
+    background-color: rgb(161, 51, 0);
     margin: auto;
     text-align: center;
     padding: 10px;
@@ -333,4 +335,107 @@ footer {
     margin-top: 5px;
     padding: 15px;
     height: 8vh;
+}
+
+@media screen and (min-width: 768px) {
+    /* Home page */
+    #s1 {
+        flex-direction: row;
+        height: 70vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #s1 .picplaceholder {
+        width: 100%;
+        height: 100%;
+    }
+
+    #slprev,
+    #slnext {
+        transform: rotate(0deg);
+        width: 10%;
+    }
+
+    #slprev img,
+    #slnext img {
+        width: 90%;
+    }
+
+    #s2 {
+        flex-direction: row;
+        margin: auto;
+        margin-top: 5px;
+        height: 30vh;
+    }
+
+    #s2 .picplaceholder {
+        width: 900px;
+        height: 260px;
+    }
+
+    #s2 p {
+        padding: 20px;
+    }
+
+    #s3 {
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+    }
+
+    #s3 .picplaceholder {
+        width: 90%;
+    }
+
+    #s4 {
+        height: 50vh;
+    }
+
+    #s4 .picplaceholder {
+        height: 40vh;
+    }
+
+    #s4 p {
+        overflow: visible;
+    }
+
+    #s5 {
+        height: 30vh;
+        align-items: center;
+    }
+
+    #gridpph {
+        height: 30vh;
+        width: 45vw;
+    }
+
+    #s5 aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 100%;
+}
+
+    #s6 {
+        height: 40vh;
+    }
+
+    #s6 .picplaceholder {
+        height: 40vh;
+    }
+
+    /* Characters page */
+}
+
+@media screen and (min-width: 1232px){
+    /* Home page */
+    #homemain {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #s1, #s2, #s3, #s4, #s5, #s6, #homemain button {
+        grid-column: 2/3;
+    }
 }
