@@ -19,8 +19,8 @@ header {
     display: none;
     position: absolute;
     background-color: antiquewhite;
-    width: 90%;
-    margin-top: 52px;
+    width: 92%;
+    margin-top: 5px;
     padding: 10px;
     text-align: right;
     z-index: 2;
@@ -337,8 +337,14 @@ footer {
     height: 8vh;
 }
 
+/* Tablet */
+
 @media screen and (min-width: 768px) {
     /* Home page */
+    #intmenu {
+        width: 97%;
+    }
+
     #s1 {
         flex-direction: row;
         height: 70vh;
@@ -428,8 +434,31 @@ footer {
     /* Characters page */
 }
 
+/* PC */
+
 @media screen and (min-width: 1232px){
     /* Home page */
+    header {
+        justify-content: center;
+    }
+
+    #pblogo {
+        width: 20%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #intmenu {
+        display: block;
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        width: 97.3%;
+        position: sticky;
+    }
+
     #homemain {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -438,4 +467,18 @@ footer {
     #s1, #s2, #s3, #s4, #s5, #s6, #homemain button {
         grid-column: 2/3;
     }
+
+    #s2 {
+        width: 80%;
+    }
+
+    #s4 button {
+        grid-column: 1/3;
+    }
+
+    #gridpph {
+        max-width: 40vw;
+        max-height: 27vh;
+    }
+
 }
