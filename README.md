@@ -1,2 +1,4 @@
 # PB_edweb_version
-This is a more primitive or maybe pre-final version of the last project of the year "obra final". In my case it's for a theoretical game called "Project Birthplace", and I have to show my progress little by little.
+Primitive/alpha to beta version of the site for a theoretical game called "Project Birthplace".
+Every part of the code except for the full javascript is made by hand.
+This repository was made with the intent of showing and archiving my coding efforts for class. :P
