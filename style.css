@@ -167,7 +167,6 @@ button {
 
 #ch_holder {
     background-color: blanchedalmond;
-    width: 90.5%;
     margin-top: 5px;
     height: 80vh;
     text-align: center;
@@ -432,6 +431,16 @@ footer {
     }
 
     /* Characters page */
+
+    #ch_holder {
+        height: 100vh;
+    }
+
+    /* Comics page */
+
+    #prev, #HOME, #next {
+        width: 4%;
+    }
 }
 
 /* PC */
@@ -455,7 +464,7 @@ footer {
         display: flex;
         gap: 40px;
         justify-content: center;
-        width: 97.3%;
+        width: 99.1%;
         position: sticky;
     }
 
@@ -481,4 +490,42 @@ footer {
         max-height: 27vh;
     }
 
+    /* Characters page */
+
+    #ch_main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .charaicon {
+        max-width: 30%;
+    }
+
+    #ch-select, #ch_holder {
+        grid-column: 2/3;
+    }
+
+    #ch_holder {
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .ch-popup {
+        width: 96%;
+    }
+
+    /* Comics page */
+
+    #comic_main {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #ep-select, #page_holder {
+        grid-column: 2/3;
+    }
+
+        #prev, #HOME, #next {
+        width: 7%;
+    }
 }
