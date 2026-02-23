@@ -265,6 +265,10 @@ button {
     margin-top: 5px;
 }
 
+#demo, #democ {
+    display: none;
+}
+
 #controls {
     background-color: darksalmon;
     margin-top: 5px;
@@ -335,7 +339,6 @@ footer {
     padding: 15px;
     height: 8vh;
 }
-
 /* Tablet */
 
 @media screen and (min-width: 768px) {
@@ -441,6 +444,18 @@ footer {
     #prev, #HOME, #next {
         width: 4%;
     }
+
+    /* Blog page */
+
+    .newzbox {
+        width: 70%;
+    }
+
+    /* Contact page */
+
+    .rssicon {
+        width: 7%;
+    }
 }
 
 /* PC */
@@ -527,5 +542,51 @@ footer {
 
         #prev, #HOME, #next {
         width: 7%;
+    }
+
+    /* Demo page */
+
+    #intdemo {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    #demo {
+        display: block;
+        background-color: black;
+        width: 100%;
+        height: 90%;
+    }
+
+    #democ {
+        display: flex;
+        background-color: darkgrey;
+        width: 100%;
+        height: 10%;
+        justify-content: right;
+    }
+
+    #intdemo p {
+        display: none;
+    }
+
+    /* Blog page */
+
+    #newz {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .newzbox {
+        width: 100%;
+        grid-column: 2/3;
+        margin-bottom: 20px;
+    }
+
+        /* Contact page */
+
+    .rssicon {
+        width: 4%;
     }
 }
