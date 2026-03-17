@@ -52,6 +52,19 @@ a {
     width: 10%;
 }
 
+#homevideo {
+    display: none;
+}
+
+#homevideo header{
+    justify-content: flex-end;
+    height: 3vh;
+}
+
+#homevideo video {
+    width: 100%;
+}
+
 #s2 {
     height: 45vh;
     background-color: beige;

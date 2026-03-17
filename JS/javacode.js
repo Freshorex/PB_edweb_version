@@ -38,6 +38,10 @@
     isActive2 = !isActive2;
   });
 
+ function hide() {
+        document.getElementById('homevideo').style.display="none";  // for hide button
+        }
 
-
-
+ function show() {
+        document.getElementById('homevideo').style.display="block";  // for hide button
+        }
