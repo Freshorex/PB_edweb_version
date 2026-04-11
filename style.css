@@ -1,7 +1,7 @@
 header {
     display: flex;
     flex-direction: row;
-    background-color: burlywood;
+    background-color: #12125b;
     padding: 5px;
 }
 
@@ -18,7 +18,7 @@ header {
 #intmenu {
     display: none;
     position: absolute;
-    background-color: antiquewhite;
+    background-color: #6969c4;
     width: 92%;
     margin-top: 5px;
     padding: 10px;
@@ -35,7 +35,7 @@ a {
     height: 70vh;
     align-content: center;
     text-align: center;
-    background-color: beige;
+    background-color: #6969c4;
     margin-top: 5px;
     display: flex;
     flex-direction: column;
@@ -67,7 +67,7 @@ a {
 
 #s2 {
     height: 45vh;
-    background-color: beige;
+    background-color: #6969c4;
     margin-top: 5px;
     display: flex;
     flex-direction: column;
@@ -78,7 +78,7 @@ a {
 
 #s3 {
     height: 35vh;
-    background-color: beige;
+    background-color: #6969c4;
     margin-top: 5px;
     display: flex;
     flex-direction: column;
@@ -89,11 +89,11 @@ a {
 .picplaceholder {
     width: 100%;
     height: 80%;
-    background-color: burlywood;
+    background-color: #b3b3f4;
 }
 
 button {
-    background-color: burlywood;
+    background-color: #b3b3f4;
     margin-top: 5px;
     height: 7vh;
     width: 100%;
@@ -103,7 +103,7 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(2, 1fr);
-    background-color: beige;
+    background-color: #6969c4;
     margin-top: 5px;
     gap: 15px;
     padding: 15px;
@@ -143,7 +143,7 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
-    background-color: beige;
+    background-color: #6969c4;
     margin-top: 5px;
     gap: 15px;
     padding: 15px;
@@ -155,7 +155,7 @@ button {
     flex-direction: row;
     align-content: space-evenly;
     align-items: center;
-    background-color: beige;
+    background-color: #6969c4;
     margin-top: 5px;
     padding: 15px;
     height: 25vh;
@@ -167,19 +167,19 @@ button {
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
     margin-top: 5px;
-    background-color: burlywood;
+    background-color: #6969c4;
     padding: 65px;
 }
 
 .charaicon {
-    background-color: blanchedalmond;
+    background-color: #b3b3f4;
     width: 15vw;
     height: 7vh;
     margin: 0 auto;
 }
 
 #ch_holder {
-    background-color: blanchedalmond;
+    background-color: #6969c4;
     margin-top: 5px;
     height: 80vh;
     text-align: center;
@@ -187,7 +187,7 @@ button {
 }
 
 .ch-popup {
-    background-color: blanchedalmond;
+    background-color: #6969c4;
     width: 90.5%;
     margin-top: 5px;
     height: 80vh;
@@ -211,23 +211,23 @@ button {
 #ep-box {
     display: none;
     margin: 0;
-    background-color: blanchedalmond;
+    background-color: #b3b3f4;
     padding: 20px;
 }
 
 #page_holder {
-    background-color: burlywood;
+    background-color: #6969c4;
     margin-top: 5px;
 }
 
 #warnings {
     height: 196vh;
     padding: 10px;
-    background-color: blanchedalmond;
+    background-color: #6969c4;
 }
 
 .pages {
-    background-color: burlywood;
+    background-color: #b3b3f4;
     height: 95vh;
     width: 95%;
     margin: 0 auto;
@@ -274,7 +274,6 @@ button {
     text-align: center;
     align-content: center;
     height: 50vh;
-    background-color: blanchedalmond;
     margin-top: 5px;
 }
 
@@ -283,7 +282,7 @@ button {
 }
 
 #controls {
-    background-color: darksalmon;
+    background-color: #b3b3f4;
     margin-top: 5px;
     height: 20vh;
     padding: 50px;
@@ -291,13 +290,13 @@ button {
 
 #newz {
     margin-top: 5px;
-    background-color: blanchedalmond;
+    background-color: #b3b3f4;
     padding: 20px;
 }
 
 .newzbox {
     width: 90%;
-    background-color: rgb(161, 51, 0);
+    background-color: #6969c4;
     margin: auto;
     text-align: center;
     padding: 10px;
@@ -309,7 +308,7 @@ button {
 }
 
 .imgnewz {
-    background-color: bisque;
+    background-color: #b3b3f4;
     height: 20vh;
     width: 100%;
 }
@@ -320,7 +319,7 @@ button {
 
 #contact {
     margin-top: 5px;
-    background-color: burlywood;
+    background-color: #b3b3f4;
     text-align: center;
 }
 
@@ -347,10 +346,13 @@ button {
 }
 
 footer {
-    background-color: burlywood;
+    background-color: #12125b;
     margin-top: 5px;
     padding: 15px;
     height: 8vh;
+    text-align: center;
+    align-content: center;
+    color: white;
 }
 /* Tablet */
 
@@ -501,7 +503,7 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    #s1, #s2, #s3, #s4, #s5, #s6, #homemain button {
+    #s1, #s2, #s3, #s4, #s5, #s6, #homemain button, #homevideo {
         grid-column: 2/3;
     }
 
@@ -574,7 +576,7 @@ footer {
 
     #democ {
         display: flex;
-        background-color: darkgrey;
+        background-color: #6969c4;
         width: 100%;
         height: 10%;
         justify-content: right;
