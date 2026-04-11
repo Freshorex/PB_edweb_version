@@ -147,7 +147,7 @@ button {
     margin-top: 5px;
     gap: 15px;
     padding: 15px;
-    height: 20vh;
+    height: 25vh;
 }
 
 #s6 {
@@ -354,6 +354,7 @@ footer {
     align-content: center;
     color: white;
 }
+
 /* Tablet */
 
 @media screen and (min-width: 768px) {
@@ -425,7 +426,6 @@ footer {
 
     #s5 {
         height: 30vh;
-        align-items: center;
     }
 
     #gridpph {
@@ -518,6 +518,10 @@ footer {
     #gridpph {
         max-width: 40vw;
         max-height: 27vh;
+    }
+
+    #s5 {
+        height: 27vh;
     }
 
     /* Characters page */
