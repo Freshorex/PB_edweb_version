@@ -172,11 +172,27 @@ button {
 }
 
 .charaicon {
-    background-color: #b3b3f4;
-    width: 15vw;
-    height: 7vh;
+    width: 21vw;
+    height: 10vh;
     margin: 0 auto;
 }
+
+    #ch1 {
+        background-image: url(IMG/ch1.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+        #ch2 {
+        background-image: url(IMG/ch2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+        #ch3 {
+        background-image: url(IMG/ch3.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
 
 #ch_holder {
     background-color: #6969c4;
