@@ -22,9 +22,12 @@
 
     <main id="homemain">
         <section id="s1">
-            <div id="slprev"><img src="IMG/arrow_left.svg" alt=""></div>
-            <div class="picplaceholder"></div>
-            <div id="slnext"><img src="IMG/arrow_right.svg" alt=""></div>
+            <button id="slprev" onclick="location.href='#slide1'"><img src="IMG/arrow_left.svg" alt=""></button>
+            <div id="s1slider">
+                <img  class="s1slides" id="slide1" src="IMG/test-image-slide1.jpg" alt="">
+                <img  class="s1slides" id="slide2" src="IMG/test-image-slide2.jpg" alt="">
+            </div>
+            <button id="slnext" onclick="location.href='#slide2'"><img src="IMG/arrow_right.svg" alt=""></button>
         </section>
 
         <button id="trailer" onclick="show()">Cinematic trailer</button>
