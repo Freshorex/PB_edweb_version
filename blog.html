@@ -21,29 +21,57 @@
         <p><b>BLOG</b></p>
         <p><a href="contact.html">CONTACT</a></p>
     </nav>
-    <main id="newz">
-        <article class="newzbox">
+
+    <div class="newzmodal" id="newzmid2">
+        <header>
+            <button class="newzclose" onclick="mhide2()">X</button>
+        </header>
+        <article class="newzbox" id="mnewz2">
             <div class="imgnewz"></div>
-            <h3>Title</h3>
-            <p>Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Itaque accusantium minima,
-                illo aliquid similique atque neque eum labore!
+            <h3>Progress is upon us!</h3>
+            <p>
+                Hello everyone! So much text la la la
+            </p>
+        </article>
+    </div>
+
+    <div class="newzmodal" id="newzmid1">
+        <header>
+            <button class="newzclose" onclick="mhide1()">X</button>
+        </header>
+        <article class="newzbox" id="mnewz1">
+            <div class="imgnewz"></div>
+            <h3>Welcome to our site!</h3>
+            <p>
+                Hello everyone! So much text la la la
+            </p>
+        </article>
+    </div>
+
+    <main id="newz">
+        <article class="newzbox" id="newz2">
+            <div class="imgnewz"></div>
+            <h3>Progress is upon us!</h3>
+            <p>
+                We have added a page for our demo! <br>
+                Here's what it so far and what to expect on the new version of the game!
             </p>
             <br>
-            <button class="modalbtn">See article</button>
+            <button class="modalbtn" onclick="mshow2()" id="mbtn2">See article</button>
         </article>
         <br>
-        <article class="newzbox">
+        <article class="newzbox" id="newz1">
             <div class="imgnewz"></div>
-            <h3>Title</h3>
-            <p>Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Itaque accusantium minima,
-                illo aliquid similique atque neque eum labore!
+            <h3>Welcome to our new site!</h3>
+            <p>
+                We may be still working on it, but... <br>
+                That doesn't mean we won't be showing off what we have in store!
             </p>
             <br>
-            <button class="modalbtn">See article</button>
+            <button class="modalbtn" onclick="mshow1()" id="mbtn1">See article</button>
         </article>
     </main>
+
     <footer></footer>
     <script src="JS/javacode.js"></script>
 </body>

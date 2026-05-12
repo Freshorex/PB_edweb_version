@@ -310,6 +310,25 @@ button {
     padding: 20px;
 }
 
+.newzmodal {
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 100%;
+    width: 96.9%;
+    height: 110vh;
+    display: none;
+    position: absolute;
+    align-self: center;
+    justify-self: center;
+}
+
+#mnewz2 p, #mnewz1 p {
+    text-align: left;
+}
+
+.newzclose {
+    width: 10%;
+}
+
 .newzbox {
     width: 90%;
     background-color: #6969c4;
