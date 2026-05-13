@@ -194,6 +194,10 @@ button {
     margin: 0 auto;
 }
 
+.charaicon:hover {
+    cursor: pointer;
+}
+
     #ch1 {
         background-image: url(IMG/ch1.png);
         background-repeat: no-repeat;
@@ -214,9 +218,11 @@ button {
 #ch_holder {
     background-color: #6969c4;
     margin-top: 5px;
-    height: 80vh;
+    height: 93vh;
     text-align: center;
     padding: 20px;
+    position: relative;
+    overflow: scroll;
 }
 
 .ch-popup {
@@ -229,7 +235,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    display: none;
+    object-fit: contain;
 }
 
 #ch-popup p {
