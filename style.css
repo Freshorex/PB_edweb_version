@@ -43,7 +43,8 @@ a {
     overflow: hidden;
 }
 
-#slprev, #slnext {
+#slprev,
+#slnext {
     all: unset;
     background-color: #b3b3f4;
 }
@@ -73,7 +74,7 @@ a {
     display: none;
 }
 
-#homevideo header{
+#homevideo header {
     justify-content: flex-end;
     height: 3vh;
 }
@@ -198,22 +199,24 @@ button {
     cursor: pointer;
 }
 
-    #ch1 {
-        background-image: url(IMG/ch1.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-        #ch2 {
-        background-image: url(IMG/ch2.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-        #ch3 {
-        background-image: url(IMG/ch3.png);
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    
+#ch1 {
+    background-image: url(IMG/ch1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#ch2 {
+    background-image: url(IMG/ch2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#ch3 {
+    background-image: url(IMG/ch3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 
 #ch_holder {
     background-color: #6969c4;
@@ -259,8 +262,12 @@ button {
     margin-top: 5px;
 }
 
-#warnings {
-    height: 196vh;
+#pagescroll {
+    overflow: scroll;
+    height: 95vh;
+}
+
+.chapters {
     padding: 10px;
     background-color: #6969c4;
 }
@@ -268,7 +275,7 @@ button {
 .pages {
     background-color: #b3b3f4;
     height: 95vh;
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -316,7 +323,8 @@ button {
     margin-top: 5px;
 }
 
-#demo, #democ {
+#demo,
+#democ {
     display: none;
 }
 
@@ -344,7 +352,8 @@ button {
     justify-self: center;
 }
 
-#mnewz2 p, #mnewz1 p {
+#mnewz2 p,
+#mnewz1 p {
     text-align: left;
 }
 
@@ -416,6 +425,7 @@ footer {
 /* Tablet */
 
 @media screen and (min-width: 768px) {
+
     /* Home page */
     #intmenu {
         width: 97%;
@@ -438,7 +448,7 @@ footer {
     #slprev img,
     #slnext img {
         width: 90%;
-         transform: rotate(0deg);
+        transform: rotate(0deg);
     }
 
     #s2 {
@@ -493,7 +503,7 @@ footer {
         flex-direction: column;
         justify-content: space-evenly;
         width: 100%;
-}
+    }
 
     #s6 {
         height: 40vh;
@@ -511,7 +521,9 @@ footer {
 
     /* Comics page */
 
-    #prev, #HOME, #next {
+    #prev,
+    #HOME,
+    #next {
         width: 4%;
     }
 
@@ -530,7 +542,8 @@ footer {
 
 /* PC */
 
-@media screen and (min-width: 1232px){
+@media screen and (min-width: 1232px) {
+
     /* Home page */
     header {
         justify-content: center;
@@ -558,7 +571,14 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    #s1, #s2, #s3, #s4, #s5, #s6, #homemain button, #homevideo {
+    #s1,
+    #s2,
+    #s3,
+    #s4,
+    #s5,
+    #s6,
+    #homemain button,
+    #homevideo {
         grid-column: 2/3;
     }
 
@@ -590,7 +610,8 @@ footer {
         max-width: 30%;
     }
 
-    #ch-select, #ch_holder {
+    #ch-select,
+    #ch_holder {
         grid-column: 2/3;
     }
 
@@ -610,11 +631,14 @@ footer {
         grid-template-columns: repeat(3, 1fr);
     }
 
-    #ep-select, #page_holder {
+    #ep-select,
+    #page_holder {
         grid-column: 2/3;
     }
 
-        #prev, #HOME, #next {
+    #prev,
+    #HOME,
+    #next {
         width: 7%;
     }
 
@@ -658,7 +682,7 @@ footer {
         margin-bottom: 20px;
     }
 
-        /* Contact page */
+    /* Contact page */
 
     .rssicon {
         width: 4%;

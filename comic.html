@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COMIC PAGES</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header>
         <img id="pblogo" src="IMG/pb_white.svg" alt="">
@@ -21,38 +23,46 @@
     </div>
 
     <div id="comic_main">
-    <hgroup id="ep-select">
-        <button id="ep-btn">Episode list</button>
-        <div id="ep-box">
-            <p>Beginning</p>
-            <p>Latest</p>
-            <p>Warnings page</p>
-            <p>1</p>
-            <p>2</p>
-        </div>
-    </hgroup>
-    <main id="page_holder">
-        <section id="chap1">
-            <section class="titles">
-                <h2>Title 1</h2>
+        <hgroup id="ep-select">
+            <button id="ep-btn">Episode list</button>
+            <div id="ep-box">
+                <p onclick="location.href='#chap1'">Warnings page</p>
+                <p onclick="location.href='#chap1'">Beginning</p>
+                <p onclick="location.href='#chap2'">Latest</p>
+            </div>
+        </hgroup>
+        <main id="page_holder">
+            <div id="pagescroll">
+                <section id="chap1">
+                    <section class="titles">
+                        <h2>Warnings</h2>
+                    </section>
+                    <article class="chapters">
+                        <div class="pages"></div>
+                    </article>
+                </section>
+                <section id="chap2">
+                    <section class="titles">
+                        <h2>Comics #1</h2>
+                    </section>
+                    <article class="chapters">
+                        <div class="pages"></div>
+                        <br>
+                        <div class="pages"></div>
+                    </article>
+                </section>
+            </div>
+            <section id="controller">
+                <div id="prev" onclick="location.href='#chap1'"></div>
+                <div id="HOME" onclick="location.href='index.html'"></div>
+                <div id="next" onclick="location.href='#chap2'"></div>
             </section>
-            <article id="warnings">
-                <br>
-                <div class="pages"></div>
-                <br>
-                <div class="pages"></div>
-            </article>
-        </section>
-        <section id="controller">
-            <div id="prev"></div>
-            <div id="HOME"><a href="index.html"></a></div>
-            <div id="next"></div>
-        </section>
-    </main>
+        </main>
     </div>
     <footer>
         Contenido aquí
     </footer>
     <script src="JS/javacode.js"></script>
 </body>
+
 </html>
