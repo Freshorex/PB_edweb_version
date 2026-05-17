@@ -217,6 +217,24 @@ button {
     background-size: contain;
 }
 
+#ch4 {
+    background-image: url(IMG/ch4.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#ch5 {
+    background-image: url(IMG/ch5.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#ch6 {
+    background-image: url(IMG/ch6.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 
 #ch_holder {
     background-color: #6969c4;
@@ -245,9 +263,40 @@ button {
     text-align: left;
 }
 
-#ch_img {
-    width: 70vw;
+.ch_portrait {
+    width: 90vw;
     height: 35vh;
+}
+
+#ch_img1 {
+    background-image: url(IMG/portrait_ch1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#ch_img2 {
+    background-image: url(IMG/portrait_ch2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#ch_img3 {
+    background-image: url(IMG/portrait_ch3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#ch_img4 {
+    background-image: url(IMG/portrait_ch4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#ch_img5 {
+    background-image: url(IMG/portrait_ch5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#ch_img6 {
+    background-image: url(IMG/portrait_ch6.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #ep-box {
