@@ -429,8 +429,10 @@ button {
 }
 
 .imgnewz {
-    background-color: #b3b3f4;
-    height: 20vh;
+    background-image: url(IMG/blog.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 22vh;
     width: 100%;
 }
 
@@ -621,6 +623,11 @@ footer {
         width: 70%;
     }
 
+    .imgnewz {
+        height: 40vh;
+        width: 100%;
+    }
+
     /* Contact page */
 
     .rssicon {
@@ -774,6 +781,11 @@ footer {
         width: 100%;
         grid-column: 2/3;
         margin-bottom: 20px;
+    }
+
+    .imgnewz {
+        height: 27vh;
+        width: 100%;
     }
 
     /* Contact page */
