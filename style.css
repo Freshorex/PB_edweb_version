@@ -461,9 +461,38 @@ button {
 }
 
 .rssicon {
-    width: 10vw;
+    width: 7vw;
     height: 5vh;
-    background-color: blanchedalmond;
+}
+
+#icon1 {
+    background-image: url(IMG/instagram.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#icon2 {
+    background-image: url(IMG/reddit.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#icon3 {
+    background-image: url(IMG/tiktok.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#icon4 {
+    background-image: url(IMG/tumblr.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#icon5 {
+    background-image: url(IMG/youtube.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 footer {
