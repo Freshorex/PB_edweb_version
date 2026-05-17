@@ -264,8 +264,8 @@ button {
 }
 
 .ch_portrait {
-    width: 90vw;
-    height: 35vh;
+    width: 59vw;
+    height: 23vh;
 }
 
 #ch_img1 {
@@ -273,26 +273,31 @@ button {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 #ch_img2 {
     background-image: url(IMG/portrait_ch2.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 #ch_img3 {
     background-image: url(IMG/portrait_ch3.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 #ch_img4 {
     background-image: url(IMG/portrait_ch4.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 #ch_img5 {
     background-image: url(IMG/portrait_ch5.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 #ch_img6 {
     background-image: url(IMG/portrait_ch6.png);
     background-size: contain;
@@ -568,6 +573,11 @@ footer {
         height: 100vh;
     }
 
+    .ch_portrait {
+        width: 60vw;
+        height: 50vh;
+    }
+
     /* Comics page */
 
     #prev,
@@ -671,6 +681,12 @@ footer {
 
     .ch-popup {
         width: 96%;
+    }
+
+    .ch_portrait {
+        width: 48vw;
+        height: 80vh;
+        background-color: #b3b3f4;
     }
 
     /* Comics page */
