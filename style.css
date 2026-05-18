@@ -359,10 +359,21 @@ button {
 }
 
 .pages {
-    background-color: #b3b3f4;
-    height: 95vh;
+    height: 88vh;
     width: 90%;
     margin: 0 auto;
+}
+
+#page0 {
+    background-image: url(IMG/WARNINGSpage.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#page1 {
+    background-image: url(IMG/page1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .titles {
