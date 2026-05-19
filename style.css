@@ -291,7 +291,7 @@ button {
     object-fit: contain;
 }
 
-#ch-popup p {
+.ch-popup p {
     text-align: left;
 }
 
@@ -447,6 +447,14 @@ button {
     position: absolute;
     align-self: center;
     justify-self: center;
+}
+
+#thomaspr {
+    height: 32vh;
+    width: 100%;
+    background-image: url(IMG/thomas\ character\ ref.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #mnewz2 p,
