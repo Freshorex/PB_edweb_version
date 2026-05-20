@@ -94,6 +94,8 @@ a {
 }
 
 #s2img {
+    width: 80vw;
+    height: 40vh;
     background-image: url(IMG/portrait_ch1.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -105,13 +107,13 @@ a {
     margin-top: 5px;
     display: flex;
     flex-direction: column;
-    align-content: flex-end;
+    align-content: center;
     padding: 10%;
 }
 
 #s3img {
-    width: 100%;
-    height: 100%;
+    width: 40vw;
+    height: 40vw;
     background-image: url(IMG/demo_thumbnail.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -606,19 +608,21 @@ footer {
     #s3 {
         justify-content: center;
         align-items: center;
-        height: 50vh;
+        height: 80vh;
     }
 
-    #s3 .picplaceholder {
-        width: 90%;
+    #s3img {
+        width: 50%;
     }
+
+
 
     #s4 {
-        height: 50vh;
+        height: 90vh;
     }
 
     #s4 .picplaceholder {
-        height: 40vh;
+        height: 80vh;
     }
 
     #s4 p {
@@ -626,7 +630,12 @@ footer {
     }
 
     #s5 {
-        height: 30vh;
+        height: 70vh;
+    }
+
+    #s5img {
+        width: 38vw;
+        height: 100vh;
     }
 
     #gridpph {
@@ -642,11 +651,12 @@ footer {
     }
 
     #s6 {
-        height: 40vh;
+        height: 80vh;
     }
 
     #s6 .picplaceholder {
-        height: 40vh;
+        height: 70vh;
+        width: 40vw;
     }
 
     /* Characters page */
@@ -656,8 +666,8 @@ footer {
     }
 
     .ch_portrait {
-        width: 60vw;
-        height: 50vh;
+        width: 40vw;
+        height: 60vh;
     }
 
     /* Comics page */
@@ -675,8 +685,21 @@ footer {
     }
 
     .imgnewz {
-        height: 40vh;
+        height: 60vh;
         width: 100%;
+    }
+
+    #thomaspr {
+        width: 85vw;
+        height: 60vh;
+    }
+
+    #newzmid2 {
+        height: 189vh;
+    }
+
+    #newzmid1 {
+        height: 186vh;
     }
 
     /* Contact page */
@@ -742,7 +765,12 @@ footer {
     }
 
     #s5 {
-        height: 27vh;
+        height: 63vh;
+    }
+
+    #s5img {
+        width: 100%;
+        height: 30vw;
     }
 
     /* Characters page */
@@ -771,8 +799,8 @@ footer {
     }
 
     .ch_portrait {
-        width: 48vw;
-        height: 80vh;
+        width: 37vw;
+        height: 50vh;
         background-color: #b3b3f4;
     }
 
@@ -835,8 +863,22 @@ footer {
     }
 
     .imgnewz {
-        height: 27vh;
+        height: 30vh;
         width: 100%;
+    }
+
+    #thomaspr {
+        width: 100%;
+        height: 50vh;
+    }
+
+    #newzmid2 {
+        width: 100%;
+        height: 30vh;
+    }
+
+    #newzmid1 {
+        height: 130vh;
     }
 
     /* Contact page */
